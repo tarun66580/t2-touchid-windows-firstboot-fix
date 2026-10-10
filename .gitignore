@@ -1,0 +1,32 @@
+# Build output and driver packages
+**/build/
+**/x64/
+**/x86/
+*.obj
+*.pdb
+*.dll
+*.lib
+*.exp
+*.sys
+*.cat
+*.zip
+
+# Signing material and user-specific secrets
+*.pfx
+*.p12
+*.cer
+sep-vault.bin
+user.kb
+
+# Machine-specific evidence and rollback data
+*.log
+*.etl
+*.evtx
+rollback/
+T2TouchId-firstboot-evidence-*.txt
+
+# Editor and OS files
+.vs/
+*.user
+Thumbs.db
+Desktop.ini
